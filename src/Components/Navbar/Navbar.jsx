@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
-import Logo from "../../assets/logo.gif"
+
 
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-[100] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 flex items-center justify-between px-10 py-6 mb-4">
       {/* Logo with GIF */}
       <img
-        src={Logo} // Path to your GIF file
+        src="/assets/logo.gif" // Path to your GIF file
         alt="Logo"
         className="h-12 w-12 rounded-md"
       />

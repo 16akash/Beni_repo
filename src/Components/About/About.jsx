@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.jpg";
+
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <div>
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
         <div className="md:flex flex-wrap flex-col md:flex-row items-center">
-          <img className="md:h-80 -ml-5 md:-ml-10 rounded-xl" src={AboutImg} alt="About img" />
+          <img className="md:h-80 -ml-5 md:-ml-10 rounded-xl" src="/assets/7358653-removebg-preview.jpg" alt="About img" />
 
           <ul>
             <div className="flex gap-3 py-4">

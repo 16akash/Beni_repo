@@ -1,14 +1,13 @@
 import React from "react";
 
 
-import { FaGoogle } from "react-icons/fa";
+
 import { TbLetterM } from "react-icons/tb";
 import { TbCircleLetterD } from "react-icons/tb";
 import { TbCircleLetterR } from "react-icons/tb";
 import { TbHexagonLetterD } from "react-icons/tb";
-import { RiNetflixFill } from "react-icons/ri";
-import { FaAmazon } from "react-icons/fa";
-import vfxImage from "../../assets/vfximage.jpg";
+
+
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -16,7 +15,7 @@ const Experience = () => {
       <div className="flex flex-wrap items-center justify-around">
         <div className="flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10">
           
-                <img className="md:h-80 -ml-5 md:-ml-10 rounded-xl" src={vfxImage} alt="" />
+                <img className="md:h-80 -ml-5 md:-ml-10 rounded-xl" src="/assets/vfximage.jpg" alt="" />
 
         </div>
         <div>
